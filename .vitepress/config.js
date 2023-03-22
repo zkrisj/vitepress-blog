@@ -11,6 +11,14 @@ export default defineConfig({
     description: 'vitepress,blog,blog-theme',
     ignoreDeadLinks: true,
     themeConfig: {
+        algolia: {
+          // container: '#app',
+          appId: '48REP6ZA9O',
+          apiKey: '3482029dd8400cbaa54eff5893aabb62',
+          indexName: 'dev_zkrisj',
+          placeholder: '请输入关键词',
+          buttonText: '搜索',
+        },
         posts: await getPosts(pageSize),
         website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
         // 评论的仓库地址

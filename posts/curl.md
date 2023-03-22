@@ -1,5 +1,5 @@
 ---
-date: 2023-03-22
+date: 23:39 2023/3/21
 title: 学会 curl 几个常用命令，可以代替 POSTMAN，apipost 等工具
 tags:
 - 工具

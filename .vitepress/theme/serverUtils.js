@@ -33,7 +33,7 @@ async function generatePaginationPages(total, pageSize) {
             const page = `
 ---
 page: true
-title: ${i === 1 ? 'home' : 'page_' + i}
+title: ${i === 1 ? '主页' : '第 ' + i + ' 页'}
 aside: false
 ---
 <script setup>
