@@ -37,7 +37,7 @@ title: ${i === 1 ? '主页' : '第 ' + i + ' 页'}
 aside: false
 ---
 <script setup>
-import Page from "../.vitepress/theme/components/Page.vue";
+import Page from "${i === 1 ? '.' : '..'}/.vitepress/theme/components/Page.vue";
 import { useData } from "vitepress";
 const { theme } = useData();
 const posts = theme.value.posts.slice(${pageSize * (i - 1)},${pageSize * i})
