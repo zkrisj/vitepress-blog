@@ -37,19 +37,19 @@ title: ${i === 1 ? '主页' : '第 ' + i + ' 页'}
 aside: false
 ---
 <script setup>
-import Page from "./.vitepress/theme/components/Page.vue";
+import Page from "../.vitepress/theme/components/Page.vue";
 import { useData } from "vitepress";
 const { theme } = useData();
 const posts = theme.value.posts.slice(${pageSize * (i - 1)},${pageSize * i})
 </script>
 <Page :posts="posts" :pageCurrent="${i}" :pagesNum="${pagesNum}" />
 `.trim()
-            const file = paths + `/page_${i}.md`
+            const file = paths + `/pages/page_${i}.md`
             await fs.writeFile(file, page)
         }
     }
     // rename page_1 to index for homepage
-    await fs.move(paths + '/page_1.md', paths + '/index.md', { overwrite: true })
+    await fs.move(paths + '/pages/page_1.md', paths + '/index.md', { overwrite: true })
 }
 
 function _convertDate(date = new Date().toString()) {

@@ -17,7 +17,7 @@
             :class="{ active: pageCurrent === i }"
             v-for="i in pagesNum"
             :key="i"
-            :href="withBase(i === 1 ? '/index.html' : `/page_${i}.html`)"
+            :href="withBase(i === 1 ? '/index.html' : `/pages/page_${i}.html`)"
         >{{ i }}</a>
     </div>
 </template>

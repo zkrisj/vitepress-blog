@@ -1,12 +1,12 @@
 ---
 page: true
-title: 主页
+title: 第 5 页
 aside: false
 ---
 <script setup>
 import Page from "../.vitepress/theme/components/Page.vue";
 import { useData } from "vitepress";
 const { theme } = useData();
-const posts = theme.value.posts.slice(0,10)
+const posts = theme.value.posts.slice(40,50)
 </script>
-<Page :posts="posts" :pageCurrent="1" :pagesNum="10" />
+<Page :posts="posts" :pageCurrent="5" :pagesNum="10" />
