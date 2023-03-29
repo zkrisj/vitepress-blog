@@ -3,7 +3,7 @@ date: 14:38 2023/3/29
 title: TypeScript 索引类型、映射类型、条件类型 ｜ 青训营笔记
 tags:
 - TypeScript
-description: 通过索引访问操作符 T[K] 和索引类型查询 keyof T 使用索引类型。在映射类型中，新类型以相同的方式转换旧类型中的每个属性。例如，你可以令每个属性成为 readonly 类型或可选的。条件类型的形式为 T extends U ? X : Y，类似于 JavaScript 中的条件表达式。
+description: 通过索引访问操作符 T[K] 和索引类型查询 keyof T 使用索引类型。在映射类型中，新类型以相同的方式转换旧类型中的每个属性。例如，你可以令每个属性成为 readonly 类型或可选的。条件类型的形式类似于 JavaScript 中的条件表达式。
 ---
 ## TypeScript 介绍
 1. TypeScript 是 JavaScript 的超集，提供了 JavaScript 的所有功能，并提供了可选的静态类型、Mixin、类、接口和泛型等特性。
