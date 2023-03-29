@@ -3,7 +3,7 @@ date: 23:02 2023/3/23
 title: 如何更简单地更改 input type=file 文件选择框的样式
 tags:
 - CSS
-description: Chrome 89 开始支持，目前除了 IE，其他各浏览器都已支持，通过伪元素 ::file-selector-button 匹配 <input type="file"> 元素上的按钮，定制文件选择框的样式。
+description: Chrome 89 开始支持，目前除了 IE，其他各浏览器都已支持，通过伪元素 ::file-selector-button 匹配 input type="file" 元素上的按钮，定制文件选择框的样式。
 ---
 ## 介绍
 HTML 原生的 `<input type="file">` 文件选择框元素样式在各个浏览器上面由用户代理默认设置样式，如果在页面上应用了其他颜色或主题时，我们通常也相应的更改这些输入框或按钮的颜色或背景，否则会出现颜色与背景或主题不融入的样式不一致问题。

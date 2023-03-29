@@ -2,7 +2,7 @@
 date: 17:45 2023/3/23
 title: 总结一下 jQuery 的原生替代方法
 tags:
-- JS
+- jQuery
 description: jQuery 可以保护我们不受浏览器兼容的影响，而事实上，在 IE8 之后，浏览器自己就很容易处理兼容问题。
 ---
 ## 介绍
