@@ -2,7 +2,7 @@
 date: 16:09 2023/3/29
 title: 🎉JavaScript 五彩纸屑库 js-confetti
 tags:
-- JS
+- Canvas
 description: 如果您有一个页面，您希望用五彩纸屑特效引起您的用户注意，那么这个插件就是为您准备的。
 ---
 ## 介绍
@@ -116,7 +116,7 @@ jsConfetti.addConfetti({
   confettiNumber: 500,
 })
 ```
-<iframe src="https://code.juejin.cn/pen/7208114926719041592)
+<iframe src="https://code.juejin.cn/pen/7208114926719041592"></iframe>
 
 ## 清除画布和结束
 通过 `JSConfetti` 类的实例上的 `clearCanvas` 方法清除画布。`addConfetti` 方法返回 `Promise` 对象，特效结束时变成 `resolved` 状态。
