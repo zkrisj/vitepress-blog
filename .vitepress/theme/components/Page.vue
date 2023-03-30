@@ -72,6 +72,7 @@ const props = defineProps({
     margin-top: 16px;
     display: flex;
     justify-content: center;
+    column-gap: 1em;
 }
 .link {
     display: inline-block;

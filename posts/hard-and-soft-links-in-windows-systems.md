@@ -89,4 +89,4 @@ mklink /d \MyFolder \Users\User1\Documents
 ```
 mklink /j \MyFolder \Users\User1\Documents
 ```
-> 在 Windows 上使用符号链接至少可以说是有问题的，[pnpm 在 Windows 上使用连接点链接来代替符号链接](https://pnpm.io/zh/faq#%E8%83%BD%E7%94%A8%E4%BA%8Ewindows%E5%90%97)。
+> 在 Windows 上使用符号链接至少可以说是有问题的，所以 [pnpm 在 Windows 上使用连接点链接来代替符号链接](https://pnpm.io/zh/faq#%E8%83%BD%E7%94%A8%E4%BA%8Ewindows%E5%90%97)。
