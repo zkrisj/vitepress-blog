@@ -10,7 +10,7 @@ description: 文心一言（英文名：ERNIE Bot）是百度全新一代基于�
 
 3月16日正式在百度总部 “挥手点江山” 发布。
 - 李彦宏展示了文心一言在文学创作、商业文案创作、数理逻辑推算、中文理解、多模态生成五个使用场景中的综合能力。
-- 王海峰解读了文心一言的技术特性及其背后的技术积累，表示文心一言是在ERNIE及PLATO系列模型的基础上研发的。
+- 王海峰解读了文心一言的技术特性及其背后的技术积累，说明文心一言是在 ERNIE 及 PLATO 系列模型的基础上研发的。
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/daa76a9b671347d9b77fe15889edf79a~tplv-k3u1fbpfcp-watermark.image?)
 

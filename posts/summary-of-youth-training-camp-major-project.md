@@ -7,7 +7,7 @@ description: 虽然业界已经有非常多知名组件库(antd/iview/material d
 ---
 ## 介绍
 青训营大项目：
-- 基于Nextis开发仿掘金站点
+- 基于 NextJS 开发仿掘金站点
 - 组件库
 - 关于新冠疫情的数据可视化作品
 
