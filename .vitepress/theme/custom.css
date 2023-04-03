@@ -179,3 +179,11 @@ iframe {
   height: 50vh;
   margin: 1em 0;
 }
+
+.vp-doc div[class*='language-'] {
+  margin: 1em 0;
+}
+
+.vp-doc [class*=language-] pre {
+  background: repeating-linear-gradient(45deg, black, transparent 100px);
+}
