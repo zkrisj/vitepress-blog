@@ -16,7 +16,7 @@ description: 当页面没有滚动时，MouseEvent.clientX 和 MouseEvent.pageX 
 - `pageX` 和 `pageY`: 鼠标事件发生时，鼠标指针相对于整个文档左上角的水平距离和垂直距离。它受页面滚动的影响，即使页面滚动，它的值也会随之改变。
 - `screenX` 和 `screenY`：鼠标相对于用户屏幕左上角的水平和垂直坐标。
 - `x` 和 `y`：`MouseEvent.clientX` 和 `MouseEvent.clientY` 的别名。
-- `offsetX` 和 `offsetY`：触发事件的元素左上角的坐标，取值范围是该元素的左边缘至右边缘。它的值取决于事件的目标元素，即如果鼠标事件发生在一个元素上，那么 `offsetX` 的值就是相对于该元素的左边缘的距离。
+- `offsetX` 和 `offsetY`：触发事件的元素左上角的坐标，它的值取决于事件的目标元素，取值范围是该元素的左边缘至右边缘（padding edge）。即如果鼠标事件发生在一个元素上，那么 `offsetX` 的值就是相对于该元素的左边缘的距离。
 - `target`: 触发该事件的 DOM 元素。
 - `button`: 鼠标键的状态，`0` 表示左键，`1` 表示中键，`2` 表示右键。
 - `altKey`、`ctrlKey` 和 `shiftKey`：分别表示是否按下了 Alt、Ctrl 和 Shift 键。
