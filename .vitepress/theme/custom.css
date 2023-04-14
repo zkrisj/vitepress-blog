@@ -185,6 +185,16 @@ iframe {
 }
 
 .vp-doc [class*=language-] pre {
+  background: whitesmoke;
+}
+
+.dark .vp-doc [class*=language-] pre {
   /* background: repeating-linear-gradient(45deg, black, transparent 100px); */
-  background: black;
+  background: transparent;
+}
+
+@media (min-width: 640px) {
+  .vp-doc div[class*=language-] {
+    border-radius: 0;
+  }
 }
