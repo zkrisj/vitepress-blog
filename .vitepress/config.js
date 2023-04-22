@@ -46,10 +46,10 @@ export default defineConfig({
         //build: { minify: false }
         server: { port: 5000 },
         plugins: [SearchPlugin({
-          // encode: false,
+          encode: false,
           tokenize: "full",
-          placeholder: "输入关键字",
-          buttonLabel: "搜索",
+          // placeholder: "输入关键字",
+          // buttonLabel: "搜索",
           previewLength: 10,
         })]
     }
