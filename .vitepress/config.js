@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import { getPosts } from './theme/serverUtils'
+import { SearchPlugin } from "vitepress-plugin-search";
 
 //每页的文章数量
 const pageSize = 20
@@ -11,14 +12,14 @@ export default defineConfig({
     description: 'vitepress,blog,blog-theme',
     ignoreDeadLinks: true,
     themeConfig: {
-        algolia: {
-          // container: '#app',
+        /* algolia: {
+          container: '#app',
           appId: '48REP6ZA9O',
           apiKey: '3482029dd8400cbaa54eff5893aabb62',
           indexName: 'dev_zkrisj',
           placeholder: '请输入关键词',
           buttonText: '搜索',
-        },
+        }, */
         posts: await getPosts(pageSize),
         website: 'https://github.com/airene/vitepress-blog-pure', //copyright link
         // 评论的仓库地址
@@ -43,7 +44,12 @@ export default defineConfig({
 
     vite: {
         //build: { minify: false }
-        server: { port: 5000 }
+        server: { port: 5000 },
+        plugins: [SearchPlugin({
+          placeholder: "输入关键字",
+          buttonLabel: "搜索",
+          previewLength: 10,
+        })]
     }
     /*
       optimizeDeps: {

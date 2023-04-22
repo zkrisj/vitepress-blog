@@ -4,7 +4,7 @@ title: form 表单新属性 submitter、新方法 requestSubmit、新事件 form
 tags:
 - HTML
 - JS
-description: 
+description: 2022年新出了哪些 form 表单新特性？
 ---
 ## SubmitEvent.submitter
 表示发送 submit 事件的表单元素。通常是 type 属性是 submit 的 `<input>` 元素或者 type 属性是 submit 的 `<button>` 元素，也可能是启动提交过程的其他元素。
