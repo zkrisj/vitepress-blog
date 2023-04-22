@@ -3,8 +3,7 @@ date: 14:59 2023/4/22
 title: JavaScript 在不同的编程范式下的使用
 tags:
 - JS
-categories:
-  - Web
+description: JavaScript 是一种灵活多变的语言，可以使用不同的编程范式来实现各种不同的需求。开发者可以根据具体的场景和需求来选择合适的编程范式。
 ---
 ## 介绍
 JavaScript 是一种支持多种编程范式的语言，可以使用以下几种编程范式：
