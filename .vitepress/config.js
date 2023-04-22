@@ -1,10 +1,14 @@
 import { defineConfig } from 'vitepress'
 import { getPosts } from './theme/serverUtils'
 import { SearchPlugin } from "vitepress-plugin-search";
+import Segment from 'segment';
 
 //每页的文章数量
 const pageSize = 20
-
+// 创建实例
+var segment = new Segment();
+// 使用默认的识别模块及字典，载入字典文件需要1秒，仅初始化时执行一次即可
+segment.useDefault();
 export default defineConfig({
     title: 'zkrisj',
     base: '/vitepress-blog',
@@ -46,8 +50,11 @@ export default defineConfig({
         //build: { minify: false }
         server: { port: 5000 },
         plugins: [SearchPlugin({
-          encode: false,
-          // tokenize: "forward",
+        // 采用分词器优化，
+          encode: function (str) {
+            return segment.doSegment(str, {simple: true});
+          },
+          tokenize: "forward", // 解决汉字搜索问题。来源：https://github.com/emersonbottero/vitepress-plugin-search/issues/11
           // placeholder: "输入关键字",
           // buttonLabel: "搜索",
           // previewLength: 10,
