@@ -252,7 +252,7 @@ console.log(state.foo) // 2
 state.foo++
 console.log(fooRef.value) // 3
 ```
-尝试将新的值传递给创建的 `ref` 等效于尝试直接更改 `props`，这是不允许的。可以使用可写 的 `computed` 或在组件上使用 `v-model` 替代。
+当 `toRef` 与组件 `props` 结合使用时，关于禁止对 `props` 做出更改的限制依然有效。尝试将新的值传递给创建的 `ref` 等效于尝试直接更改 `props`，这是不允许的。可以使用可写 的 `computed` 或在组件上使用 `v-model` 替代。
 
 2. `toRefs()` 将一个 `reactive` 对象转换为一个普通对象，这个普通对象的每个属性都是指向源对象相应属性的 `ref`。每个单独的 `ref` 都是使用 `toRef()` 创建的。
 ```js
