@@ -66,7 +66,6 @@ description: 浏览器是一个复杂的软件，它通常会将不同的任务�
 2. 如果响应主体是一个 HTML 文件，浏览器将内容交给渲染进程处理。
 3. 如果拿到的是其他类型文件，比如 Zip、exe 等，则交给下载管理器处理。
 
-## Chrome 运行原理
 ### 主进程寻找渲染进程
 
 ![image.png](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/17f85764605e487084e35a25ca167014~tplv-k3u1fbpfcp-watermark.image?)
