@@ -97,40 +97,40 @@ Linux 中一切皆文件：
 
 Liux文件系统是采用树状的目录结构，最上层是/（根）目录。
 
-/bin：
+`/bin`：
 bin 是 Binaries (二进制文件) 的缩写, 这个目录存放着最经常使用的命令。
 
-/boot：
+`/boot：
 这里存放的是启动 Linux 时使用的一些核心文件，包括一些连接文件以及镜像文件。
 
-/dev ：
+`/dev`：
 dev 是 Device(设备) 的缩写, 该目录下存放的是 Linux 的外部设备，在 Linux 中访问设备的方式和访问文件的方式是相同的。
 
-/etc：
+`/etc`：
 etc 是 Etcetera(等等) 的缩写,这个目录用来存放所有的系统管理所需要的配置文件和子目录。
 
-/home：
+`/home`：
 用户的主目录，在 Linux 中，每个用户都有一个自己的目录，一般该目录名是以用户的账号命名的。
 
-/lib：
+`/lib`：
 lib 是 Library(库) 的缩写这个目录里存放着系统最基本的动态连接共享库，其作用类似于 Windows 里的 DLL 文件。几乎所有的应用程序都需要用到这些共享库。
 
-/mnt：
+`/mnt`：
 系统提供该目录是为了让用户临时挂载别的文件系统的，我们可以将光驱挂载在 /mnt/ 上，然后进入该目录就可以查看光驱里的内容了。
 
-/opt：
+`/opt`：
 opt 是 optional(可选) 的缩写，这是给主机额外安装软件所摆放的目录。比如你安装一个ORACLE数据库则就可以放到这个目录下。默认是空的。
 
-/proc：
+`/proc`：
 proc 是 Processes(进程) 的缩写，/proc 是一种伪文件系统（也即虚拟文件系统），存储的是当前内核运行状态的一系列特殊文件，这个目录是一个虚拟的目录，它是系统内存的映射，我们可以通过直接访问这个目录来获取系统信息。
 
-/root：
+`/root`：
 该目录为系统管理员，也称作超级权限者的用户主目录。
 
-/sbin：
+`/sbin`：
 s 就是 Super User 的意思，是 Superuser Binaries (超级用户的二进制文件) 的缩写，这里存放的是系统管理员使用的系统管理程序。
 
-/usr：
+`/usr`：
  usr 是 unix shared resources(共享资源) 的缩写，这是一个非常重要的目录，用户的很多应用程序和文件都放在这个目录下，类似于 windows 下的 program files 目录。
 
 ![image.png](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/c87487620daa47068073aa52566a2c05~tplv-k3u1fbpfcp-watermark.image?)
