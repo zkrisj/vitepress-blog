@@ -105,7 +105,7 @@ interface API {
     comment: string
   }
 }
-function request \<T extends keyof API\> (url: T, obj: API[T]) {
+function request `<T extends keyof API>` (url: T, obj: API[T]) {
   return axios.post(url, obj)
 }
 ```
