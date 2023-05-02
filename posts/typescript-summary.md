@@ -82,9 +82,9 @@ TypeScript 带来了什么：
 - extends：泛型约束
 
 工具类型：
-- Partial<T>：将类型属性变为可选
-- Required<T>：将类型属性变为必选
-- Readonly<T>：将类型属性变为只读
+- `Partial<T>`：将类型属性变为可选
+- `Required<T>`：将类型属性变为必选
+- `Readonly<T>`：将类型属性变为只读
 - Pick、Record...
 
 ## 声明文件
@@ -105,7 +105,7 @@ interface API {
     comment: string
   }
 }
-function request `<T extends keyof API>` (url: T, obj: API[T]) {
+function request <T extends keyof API> (url: T, obj: API[T]) {
   return axios.post(url, obj)
 }
 ```
