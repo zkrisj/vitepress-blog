@@ -267,6 +267,9 @@ options 为可选参数，包括：
 
     函数值，默认是空函数，拖拽结束的时候触发。
 
+## 码上掘金
+<iframe src="https://code.juejin.cn/pen/7228490812546351163"></iframe>
+
 ## 参考资料
 1. [JS之我用单img元素实现了图像resize拉伸效果](https://www.zhangxinxu.com/wordpress/2022/11/js-image-resize/)
 2. 体验地址：<https://zhangxinxu.gitee.io/only-img-resize/>
