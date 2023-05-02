@@ -1,6 +1,6 @@
 ---
 date: 11:43 2023/5/2
-title: 图像 resize 拉伸效果
+title: 拖拽图片缩放效果
 tags:
 - JS
 description: 页面中所有设置了类名 resizable，或者设置了 HTML 属性 resizable 的元素都可以四面拉伸了。
