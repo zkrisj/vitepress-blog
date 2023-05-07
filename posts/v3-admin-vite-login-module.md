@@ -3,7 +3,7 @@ date: 9:06 2023/5/7
 title: V3 Admin Vite 登录模块
 tags:
 - Vue
-description: login action 返回值是一个 Promise，所以后面链式跟一个 .then 、 .catch 和 .finally，接口调用成功则会执行 .then （跳转到首页），如果途中发生错误，则会执行 .catch，而无论什么情况都会执行 .finally。
+description: 后续所有的操作，都将携带保存在前端的 token 去调用接口，token 将是后端服务判断当前请求合不合法的依据，项目本身已经写在 Axios 的封装里面了。
 ---
 ## 介绍
 [V3 Admin Vite](https://github.com/un-pany/v3-admin-vite) 是一个免费开源的中后台管理系统基础解决方案，基于 Vue3、TypeScript、Element Plus、Pinia 和 Vite 等主流技术。另外还有：
