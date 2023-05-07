@@ -16,6 +16,9 @@ export default defineConfig({
     description: 'vitepress,blog,blog-theme',
     ignoreDeadLinks: true,
     themeConfig: {
+      /* search: {
+        provider: 'local'
+      }, */
         /* algolia: {
           container: '#app',
           appId: '48REP6ZA9O',
