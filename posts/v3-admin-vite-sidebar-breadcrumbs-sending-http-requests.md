@@ -51,9 +51,10 @@ description: 登录时通过获取当前用户的权限（角色）去比对路�
 ## 侧边栏
 侧边栏 `@/layout/components/Sidebar` 是通过读取路由并结合权限判断而动态生成的（换句话说就是常驻路由 + 有权限的动态路由）。
 
-<img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7746005771b54a798abc258d5b77b412~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" alt="" width="63.5%" />
-
-<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/796d157f7af2478a95fca2389702450d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" alt="" width="20%" />
+<div style="display: flex">
+<img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/7746005771b54a798abc258d5b77b412~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?"  />
+<img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/796d157f7af2478a95fca2389702450d~tplv-k3u1fbpfcp-zoom-in-crop-mark:1512:0:0:0.awebp?" />
+</div>
 
 可以在侧边栏中配置一个外链，只要你在 `path` 中填写了合法的 `url` 路径，当你点击侧边栏的外链时就会帮你打开这个页面。
 ```ts
